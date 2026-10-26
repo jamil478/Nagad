@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nagad Login Demo</title>
+  <style>
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .logo img {
+      width: 120px;
+      margin-bottom: 10px;
+    }
+    .brand-name {
+      font-size: 36px;
+      font-weight: bold;
+      color: #E94E1B;
+      margin-bottom: 10px;
+      font-family: 'SolaimanLipi', Arial, sans-serif;
+    }
+    .mobile-label {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 5px;
+    }
+    .mobile-number {
+      font-size: 18px;
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+    }
+    .input-group {
+      position: relative;
+      margin-bottom: 30px;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 10px 12px 10px 40px;
+      font-size: 18px;
+      border: none;
+      border-bottom: 1.5px solid #E94E1B;
+      outline: none;
+    }
+    .input-group .icon {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      transform: translateY(-50%);
+      color: #E94E1B;
+      font-size: 20px;
+    }
+    button.login-btn {
+      background: none;
+      border: 2px solid #E94E1B;
+      color: #E94E1B;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 12px 0;
+      width: 320px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-bottom: 15px;
+    }
+    button.login-btn:hover {
+      background-color: #E94E1B;
+      color: white;
+    }
+    .forgot-pin {
+      font-size: 14px;
+      color: #bbb;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Nagad_Logo.svg/" alt="" />
+    </div>
+    <div class="brand-name">নগদ</div>
+    <div class="mobile-label">মোবাইল নাম্বার</div>
+    <div class="mobile-number">01616-700055</div>
+
+    <div class="input-group">
+      <span class="icon">🔒</span>
+      <input type="password" placeholder="পিন" maxlength="6" />
+    </div>
+
+    <button class="login-btn" onclick="alert('এই ডেমো পেজ, কোনো তথ্য পাঠানো হয় না।')">লগ ইন</button>
+
+    <div class="forgot-pin">পিন নাম্বার ভুলে গিয়েছেন?</div>
+  </div>
+</body>
+</html>
